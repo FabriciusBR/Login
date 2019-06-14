@@ -1,104 +1,94 @@
 body{
-  background-color: whitesmoke;
-  background-size: 100%;
+    background-color: whitesmoke;
+    background-size: 100%;
 }
-div{ 
-  width:900px;
-  height:600px;
-  border-radius:10px;/*quebra a borda, borda arredondada*/
-  margin: 300px 300px 0px 630px;
- 
+div{
+    display: table;  
+    width:900px;
+    height:600px;
+    border-radius:10px;/*quebra a borda, borda arredondada*/
+    margin: 300px 300px 0px 500px;
 }
 form{
-  text-align:center;
+    text-align:center;
 }
 .caixa3{
-  background-color: rgb(232,232,232);
-  border:3px solid rgb(232,232,232);
-  width:540px;
-  height:55px;
-  border-radius: 5px;
-  font-size:19px;
-  font-style: italic;
+    background-color: rgb(232,232,232);
+    border:3px solid rgb(232,232,232);
+    width:540px;
+    height:55px;
+    border-radius: 5px;
+    font-size:19px;
+    font-style: italic;
+    text-indent:10px;
+    margin-bottom: 32px; 
 }
 .caixa1{
-  background-color: rgb(232,232,232); 
-  border:3px solid rgb(232,232,232);
-  width: 222px;
-  height:55px;
-  border-radius:5px;
-  font-size:19px;
-  display: inline;
-  font-style: italic;
-  display:inline-block;
+    background-color: rgb(232,232,232); 
+    border:3px solid rgb(232,232,232);
+    width: 222px;
+    height:55px;
+    border-radius:5px;
+    font-size:19px;
+    display: inline;
+    font-style: italic;
+    display:inline-block;
+    text-indent:10px;
+    margin-bottom:32px;
 }
 .caixa2{
-  background-color: rgb(232,232,232); 
-  border:3px solid rgb(232,232,232);
-  width: 222px;
-  height:55px;
-  border-radius:5px;
-  font-size:19px;
-  display: inline;
-  font-style: italic;
-  display:inline-block;
-  margin: 0 0 0 25px;
-}
-.name{
-  margin-bottom:32px;
-}
-.lastname{
-  margin-bottom:32px;
-}
-.email{
-  margin-bottom: 32px;  
-}
-.password{
-  margin-bottom: 32px;  
+    background-color: rgb(232,232,232); 
+    border:3px solid rgb(232,232,232);
+    width: 222px;
+    height:55px;
+    border-radius:5px;
+    font-size:19px;
+    display: inline;
+    font-style: italic;
+    margin: 0 0 0 25px;
+    text-indent:10px;
+    margin-bottom: 32px; 
 }
 .botao{
-  margin-right: 385px;
-  width: 222px;
-  height: 55px;
-  background:rgb(173,131,173);
-  border-radius:5px;
-  font-size: 19px;
-  color:white;
-  border:3px solid rgb(173,131,173);
+    margin-right: 385px;
+    width: 222px;
+    height: 55px;
+    background:rgb(173,131,173);
+    border-radius:5px;
+    font-size: 19px;
+    color:white;
+    border:3px solid rgb(173,131,173);
+    cursor: pointer;/*cursor de botão*/
 }
-
 input{
-
-  transition: 0.3s;
+    transition: 0.3s;
 }
-
 input:focus, input:active {
-   border-color: rgb(173,131,173);
+    border-color: rgb(173,131,173);
 }
 
 .icone1{
-  padding-left:64px;
-  line-height:16px;
-  background:url("imagens/user.png")no-repeat;  
+    padding-left:64px;
+    line-height:16px;
+    background:url("imagens/user.png")no-repeat;  
 }
 .icone2{
-  padding-left:64px;
-  line-height:16px;
-  background:url("imagens/email.png")no-repeat; 
-    
+    padding-left:64px;
+    line-height:16px;
+    background:url("imagens/email.png")no-repeat; 
 }
 .icone3{
-  padding-left:64px;
-  line-height:16px;
-  background:url("imagens/password.png")no-repeat; 
+    padding-left:64px;
+    line-height:16px;
+    background:url("imagens/password.png")no-repeat; 
 }
 .icone1:focus{
-  background:url("imagens/user--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box;
+    background:url("imagens/user--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box;
 }
 .icone2:focus{
-  background:url("imagens/email--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box;
+    background:url("imagens/email--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box;
 }    
 .icone3:focus{
-  background:url("imagens/password--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box; 
+    background:url("imagens/password--focus.png")no-repeat,linear-gradient(to right,rgb(173,131,173) 64px,rgb(250,250,250) 64px), padding-box; 
 }   
 
